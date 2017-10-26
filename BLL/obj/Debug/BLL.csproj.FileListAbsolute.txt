@@ -1,0 +1,9 @@
+C:\Users\AakashChaudhary\Documents\Visual Studio 2017\projects\prac1\BLL\bin\Debug\BLL.dll
+C:\Users\AakashChaudhary\Documents\Visual Studio 2017\projects\prac1\BLL\bin\Debug\BLL.pdb
+C:\Users\AakashChaudhary\Documents\Visual Studio 2017\projects\prac1\BLL\bin\Debug\DAL.dll
+C:\Users\AakashChaudhary\Documents\Visual Studio 2017\projects\prac1\BLL\bin\Debug\DAL.pdb
+C:\Users\AakashChaudhary\Documents\Visual Studio 2017\projects\prac1\BLL\bin\Debug\DAL.dll.config
+C:\Users\AakashChaudhary\Documents\Visual Studio 2017\projects\prac1\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\AakashChaudhary\Documents\Visual Studio 2017\projects\prac1\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\AakashChaudhary\Documents\Visual Studio 2017\projects\prac1\BLL\obj\Debug\BLL.dll
+C:\Users\AakashChaudhary\Documents\Visual Studio 2017\projects\prac1\BLL\obj\Debug\BLL.pdb
