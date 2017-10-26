@@ -62,12 +62,15 @@ namespace prac1
             
         }
 
-        protected void Submit_Click(object obj, DirectEventArgs e)
+        protected void Delete_Click(object obj, DirectEventArgs e)
         {
             string grid1Json = e.ExtraParams["GridData"];
             dynamic data = JArray.Parse(grid1Json);
-            Guid abcdef = new Guid(data[0].ProductID.ToString());       
-    }
+            Guid Pid = new Guid(data[0].ProductID.ToString());
+            StoreManager storeManager = new StoreManager();
+            storeManager.StoreDeleteData(Pid);
+            Initialise();
+        }
 
 
 

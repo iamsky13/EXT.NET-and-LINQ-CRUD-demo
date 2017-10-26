@@ -41,6 +41,11 @@ namespace BLL
         {
             dataAccessCls.UpdateData(p);
         }
+
+        public void StoreDeleteData(Guid ProductId)
+        {
+            dataAccessCls.DeleteData(ProductId);
+        }
     }
 
     

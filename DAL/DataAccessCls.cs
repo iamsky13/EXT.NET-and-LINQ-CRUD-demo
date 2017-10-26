@@ -33,6 +33,17 @@ namespace DAL
                 context.SubmitChanges();
             }
         }
-        
+
+        public void DeleteData(Guid PId)
+        {
+            DBDataContext context = new DBDataContext(ConfigurationManager.ConnectionStrings["ConnectionString"].ToString());
+            using (context)
+            {
+                Product p = context.Products.SingleOrDefault(x => x.ProductID == PId);
+                context.Products.DeleteOnSubmit(p);
+                context.SubmitChanges();
+            }
+
+        }
     }
 }

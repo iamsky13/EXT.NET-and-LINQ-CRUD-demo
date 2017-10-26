@@ -178,9 +178,9 @@
            <ext:Toolbar runat="server">
                     <Items>
                         <ext:ToolbarFill runat="server"></ext:ToolbarFill>
-                        <ext:Button ID="Button2" Text="Submit" runat="server">
+                        <ext:Button ID="Button2" Text="Delete" Icon="CupDelete" runat="server">
                             <DirectEvents>
-                                <Click OnEvent="Submit_Click">
+                                <Click OnEvent="Delete_Click">
                                     <EventMask ShowMask="true" />  
                                     <ExtraParams>
                                             <%--<ext:Parameter Name="GridData" Value="#{GridPanel1}.getStore().getTotalCount()" Mode="Raw" ></ext:Parameter>--%>
